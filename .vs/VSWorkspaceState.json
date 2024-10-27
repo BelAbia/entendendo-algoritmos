@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Fatorial",
+    "\\PesquisaBinaria"
   ],
+  "SelectedNode": "\\PesquisaBinaria\\Entendendo-algoritmos.sln",
   "PreviewInSolutionExplorer": false
 }

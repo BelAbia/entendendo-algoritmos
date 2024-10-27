@@ -1,14 +1,6 @@
-﻿
-int Fatorial(int numero)
-{
-    if(numero == 1)
-    {
-        return 1;
-    }
-    else
-    {
-        return numero * Fatorial(numero - 1);
-    }
-}
+﻿using Recursividade;
 
-Console.WriteLine(Fatorial(2));
+Console.WriteLine(Fatorial.CalcularFatorial(5));
+Console.WriteLine(Soma.CalcularSoma([2, 4, 6]));
+Console.WriteLine(SomaItensDaLista.CalculaNumerosDeItens([2, 4, 6]));
+Console.WriteLine(ValorMaisAlto.ObtemValorMaisAlto([2, 90, 6, 10, 8, 12, 67]));
